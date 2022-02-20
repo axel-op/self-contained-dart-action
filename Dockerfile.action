@@ -1,1 +1,1 @@
-FROM ghcr.io/axel-op/self-contained-dart-action:latest
+FROM ghcr.io/axel-op/self-contained-dart-action:main
