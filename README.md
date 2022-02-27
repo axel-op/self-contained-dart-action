@@ -1,5 +1,7 @@
 # Self-contained Dart GitHub Action
 
+> [See here](https://gist.github.com/axel-op/deff66ac2f28a01813193d90de36c564) for a comparison of the different ways to build a GitHub Action with Dart.
+
 In 2020, I published the Pub package [`github_actions_toolkit`](https://pub.dev/packages/github_actions_toolkit) to write GitHub Actions with Dart more easily. However, using such actions in a workflow is still cumbersome, as they need [a full Dart container to be pulled](https://github.com/axel-op/containerized-dart-action) before they can be run, which is very time consuming for these scripts that generally run in a few seconds.
 
 This repository is a template to demonstrate how to create a GitHub Action with Dart that is self-contained in a tiny Docker container, that can be pulled and used in a workflow very quickly.
